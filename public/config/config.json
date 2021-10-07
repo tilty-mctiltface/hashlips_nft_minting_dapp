@@ -2,17 +2,17 @@
   "CONTRACT_ADDRESS": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
   "SCAN_LINK": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
   "NETWORK": {
-    "NAME": "Ethereum",
-    "SYMBOL": "Eth",
+    "NAME": "Fantom Opera",
+    "SYMBOL": "FTM",
     "ID": 1
   },
-  "NFT_NAME": "Stick Man Club",
-  "SYMBOL": "SMC",
-  "MAX_SUPPLY": 69000,
+  "NFT_NAME": "Stickman NFT",
+  "SYMBOL": "STICKMAN",
+  "MAX_SUPPLY": 200,
   "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.08,
+  "DISPLAY_COST": 10,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/stickmen-nft",
   "SHOW_BACKGROUND": true
 }
