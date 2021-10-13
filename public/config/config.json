@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-  "SCAN_LINK": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  "CONTRACT_ADDRESS": "0x9372a913f9dbE34C1Ef5F69B99013D96fc2f3bf8",
+  "SCAN_LINK": "https://ftmscan.com/token/0x9372a913f9dbE34C1Ef5F69B99013D96fc2f3bf8",
   "NETWORK": {
     "NAME": "Fantom Opera",
     "SYMBOL": "FTM",
-    "ID": 1
+    "ID": 250
   },
-  "NFT_NAME": "Stickman NFT",
-  "SYMBOL": "STICKMAN",
-  "MAX_SUPPLY": 200,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 10,
+  "NFT_NAME": "Stickmen NFT",
+  "SYMBOL": "STICKMEN",
+  "MAX_SUPPLY": 250,
+  "WEI_COST": 20000000000000000000,
+  "DISPLAY_COST": 20,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/stickmen-nft",
+  "MARKETPLACE": "Artion.io",
+  "MARKETPLACE_LINK": "https://artion.io/explore",
   "SHOW_BACKGROUND": true
 }
