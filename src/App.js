@@ -369,6 +369,8 @@ function App() {
               </>
             )}
             <s.SpacerMedium />
+            <s.SpacerMedium />
+            <s.TextDescription>Join the Discord <a href="https://discord.gg/FFRZBHYw" target="_blank" style={{textDecoration: "none", color: "var(--secondary)"}}>HERE!</a></s.TextDescription>
           </s.Container>
           <s.SpacerLarge />
           {/* <s.Container flex={1} jc={"center"} ai={"center"}>
