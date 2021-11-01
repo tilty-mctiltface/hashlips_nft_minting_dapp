@@ -18,13 +18,9 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  transition-duration_ .15s;
   :active {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+    background-color: #6d2411;
   }
 `;
 
@@ -162,8 +158,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 20) {
+      newMintAmount = 20;
     }
     setMintAmount(newMintAmount);
   };
@@ -213,7 +209,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
+              backgroundColor: "rgba(59,59,59,0.6)",
               padding: 24,
               borderRadius: 24,
               width: "50%",
@@ -265,7 +261,7 @@ function App() {
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
+                  {CONFIG.NETWORK.SYMBOL}, max mint 20 per wallet.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -370,7 +366,7 @@ function App() {
             )}
             <s.SpacerMedium />
             <s.SpacerMedium />
-            <s.TextDescription>Join the Discord <a href="https://discord.gg/XvwfXS8NyY" target="_blank" style={{textDecoration: "none", color: "var(--secondary)"}}>HERE!</a></s.TextDescription>
+            <s.TextDescription>Join the Discord <a href="https://discord.gg/nM5KTwdqJB" target="_blank" style={{textDecoration: "none", color: "var(--secondary)"}}>HERE!</a></s.TextDescription>
           </s.Container>
           <s.SpacerLarge />
           {/* <s.Container flex={1} jc={"center"} ai={"center"}>
